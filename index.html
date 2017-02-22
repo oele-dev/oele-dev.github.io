@@ -20,14 +20,15 @@
 				<header>
 					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
 					<h1 id="logo"><a href="#">Osmell Caicedo</a></h1>
+					<h4><a href="http://www.twitter.com/oele_co" target="_blank">@oele_co</a></h4>
 					<p>Artista Web<br />
-					Me apasiona desde montar un servidor hasta como se ve un JPG</p>
+					Apasionado por constuir la internet</p>
 				</header>
 				<nav id="nav">
 					<ul>
 						<li><a href="#one" class="active">Hola</a></li>
-						<li><a href="#two">Como lo hago</a></li>
-						<li><a href="#three">Algo de lo que hago</a></li>
+						<li><a href="#two">Tecnologías</a></li>
+						<li><a href="#three">Proyectos</a></li>
 						<li><a href="#four">Contacto</a></li>
 					</ul>
 				</nav>
@@ -48,13 +49,12 @@
 
 				<!-- Main -->
 					<div id="main">
-
 						<!-- One -->
 							<section id="one">
 								<div class="container">
 									<header class="major">
 										<h2>Hola</h2>
-										<p>Me considero un artista web. <br>Ayudando a construir la internet.</p>
+										<p>Programador y "artista" web, aportando  a construir la internet.</p>
 									</header>
 									<p></p>
 								</div>
@@ -64,7 +64,7 @@
 							<section id="two">
 								<div class="container">
 									<h3>Lo que me apasiona</h3>
-									<p>Estas son la herramientas que me ayudan a esculpir lo que hago.</p>
+									<p>Estas son la herramientas que me ayudan a esculpir.</p>
 									<ul class="feature-icons">
 										<li class="fa-code">PHP/laravel</li>
 										<li class="fa-code">VueJS/Firebase</li>
@@ -85,24 +85,31 @@
 									<p>Portales web, tiendas en línea, plataformas de aprendizaje y mas</p>
 									<div class="features">
 										<article>
-											<a href="http://toyotacucutamotors.com/" class="image"><img src="images/pic01.png" alt="" /></a>
+											<a href="http://toyotacucutamotors.com/" target="_blank" class="image"><img src="images/pic01.png" alt="" /></a>
 											<div class="inner">
 												<h4>Cucuta Motors - Toyota</h4>
-												<p>Desarrollado en Wordpress, el sitio cuenta con un diseño adaptable y funcionalidadesc como cotizador virtual y agendador de citas.</p>
+												<p>Desarrollado en Wordpress, el sitio cuenta con un diseño adaptable y funcionalidades personalizadas como cotizador virtual y agendador de citas.</p>
 											</div>
 										</article>
 										<article>
-											<a href="http://www.stylemezu.com/" class="image"><img src="images/pic02.png" alt="" /></a>
+											<a href="http://cootrasar.co/" target="_blank" class="image"><img src="images/pic02.png" alt="" /></a>
 											<div class="inner">
-												<h4>Styleme Zu</h4>
-												<p>Desarrollodo en wordpress el sitio web cuenta con una tienda en línea</p>
+												<h4>Cootrasar</h4>
+												<p>Desarrollado en laravel(PHP), permite la gestión de viajes y tiquetes para la Cooperativa de Transportadored de Sardinata N de S.</p>
 											</div>
 										</article>
 										<article>
-											<a href="http://www.lamejor.com.co/new/" class="image"><img src="images/pic03.png" alt="" /></a>
+											<a href="http://www.lamejor.com.co/new/" target="_blank" class="image"><img src="images/pic03.png" alt="" /></a>
+											<div class="inner">
+												<h4>TanqueApp</h4>
+												<p>Registro y control de "tanqueos" y clientes frecuentes en las Estaciones de Gasolina</p>
+											</div>
+										</article>
+										<article>
+											<a href="http://www.lamejor.com.co/new/" target="_blank" class="image"><img src="images/pic04.png" alt="" /></a>
 											<div class="inner">
 												<h4>La Mejor</h4>
-												<p>Desarrollado en wordpress el sitio cuenta con un cotizador virtual, chat en línea</p>
+												<p>Desarrollado en wordpress el sitio cuenta con galeria de productos, cotizador virtual y chat en línea</p>
 											</div>
 										</article>
 									</div>
@@ -114,18 +121,19 @@
 								<div class="container">
 									<h3>Contactame</h3>
 									<p>Tienes un proyecto en mente, cuentame, me encantan los retos</p>
-									<form method="post" action="#">
+									<form name="gform" id="gform" action="https://docs.google.com/forms/d/1FAIpQLSd7nSHlhcb33Eo22yyMCMYdFsVpLTxjlQxt0_UUCZNXk57_Iw/formResponse"
+									enctype="text/plain" target="hidden_iframe" onsubmit="submitted=true;">
 										<div class="row uniform">
-											<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Nombre" /></div>
-											<div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Correo" /></div>
+											<div class="6u 12u(xsmall)"><input type="text" name="entry.898335473" id="entry.898335473" placeholder="Nombre" /></div>
+											<div class="6u 12u(xsmall)"><input type="email" name="entry.184190665" id="entry.184190665" placeholder="Correo" /></div>
 										</div>
 										<div class="row uniform">
 											<div class="12u">
 												<div class="select-wrapper">
-													<select name="subject" id="subject">
+													<select name="entry.1151131975" id="entry.1151131975">
 														<option value="">- Categoria -</option>
 														<option value="web">Desarrollo Web</option>
-														<option value="commerce">E-Commerce</option>
+														<option value="commerce">E-Commerce - Tienda en linea</option>
 														<option value="wordpress">CMS (Wordpress)</option>
 														<option value="lms">LMS (Moodle)</option>
 														<option value="app">App</option>
@@ -134,17 +142,17 @@
 											</div>
 										</div>
 										<div class="row uniform">
-											<div class="12u"><textarea name="message" id="message" placeholder="Mensaje" rows="6"></textarea></div>
+											<div class="12u"><textarea name="entry.285500419" id="entry.285500419" placeholder="Mensaje" rows="6"></textarea></div>
 										</div>
 										<div class="row uniform">
 											<div class="12u">
 												<ul class="actions">
 													<li><input type="submit" class="special" value="Enviar mensaje" /></li>
-													<li><input type="reset" value="Cancelar" /></li>
 												</ul>
 											</div>
 										</div>
 									</form>
+									<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 								</div>
 							</section>
 
@@ -515,6 +523,7 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script type="text/javascript">var submitted=false;</script>
 			<script src="assets/js/main.js"></script>
 
 	</body>
