@@ -111,7 +111,7 @@
 	});
 	$('#gform').on('submit', function(e) {
 		$('#gform *').fadeOut(2000);
-		$('#gform').prepend('Your submission has been processed...');
+		$('#gform').prepend('Tu mensaje ha sido recibido, pronto me comunicare contigo.');
 	});
-	
+
 })(jQuery);
