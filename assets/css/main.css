@@ -2601,7 +2601,7 @@
 
 	#one:before {
 		background-image: url("../../images/banner.gif");
-		background-position: center center;
+		background-position: right bottom;
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: '';
