@@ -1,0 +1,14 @@
+This zip file contains optimized resources for http://oele.co/. The optimized resources are listed below in the format of: 
+filename: url
+
+Note: We only include up to 10 MB of optimized contents. If the
+optimized contents of your page are larger than 10 MB, we list them in
+this file too, with 'NOT INCLUDED' to indicate those URLs require
+further optimization.
+
+css/main.css: http://oele.co/assets/css/main.css
+js/util.js: http://oele.co/assets/js/util.js
+js/main.js: http://oele.co/assets/js/main.js
+image/avatar.jpg: http://oele.co/images/avatar.jpg
+image/pic02.png: http://oele.co/images/pic02.png
+image/pic03.png: http://oele.co/images/pic03.png
